@@ -1,0 +1,126 @@
+#ilham * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#ilham {
+    background: #f4f1ea;
+    color: #333;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+#ilham .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#ilham .grid {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+}
+
+#ilham .sidebar {
+    background: #e8dcc8;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+#ilham .main {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#ilham .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ilham .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#ilham h1 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#ilham h2 {
+    font-size: 18px;
+    margin: 25px 0 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+
+
+#ilham .skill-name {
+    font-size: 18px;
+}
+
+
+
+#ilham .contact p {
+    margin-bottom: 8px;
+}
+
+#ilham .job {
+    margin-bottom: 20px;
+}
+
+#ilham .title {
+    font-weight: bold;
+}
+
+#ilham .subtitle {
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+#ilham .dark-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+
+#ilham.dark {
+    background: #111;
+}
+
+#ilham.dark .main {
+    background: #1e1e1e;
+    color: white;
+}
+
+#ilham.dark .sidebar {
+    background: #2a2a2a;
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    #ilham .grid {
+        grid-template-columns: 1fr;
+    }
+}

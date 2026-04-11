@@ -1,0 +1,29 @@
+#nabila{
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+    height: calc(100vh - 80px);
+    width: calc(100vw - 80px);
+    position: absolute;
+    overflow-y: scroll;
+}
+#nabila .container {
+    height: calc(100vh - 80px);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    overflow-y: scroll;
+}
+#nabila h1, h2 {
+    color: #333;
+}
+#nabila .section {
+    margin-bottom: 20px;
+}
+#nabila ul {
+    padding-left: 20px;
+}
+#nabila .noMargin{
+    margin: 0;
+}

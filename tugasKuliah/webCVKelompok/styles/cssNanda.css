@@ -1,0 +1,174 @@
+#ananda{
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+#ananda .header{
+    display: flex;
+    height: 22vw;
+    width: 100vw;
+    background-color:#415a77;
+    z-index: 3;
+}
+#ananda .profile{
+    border-radius: 100%;
+    margin-top: 4.17vw;
+    margin-left: 9.5vw;
+    height: 15vw;
+    width:15vw;
+    z-index: 4;
+}
+#ananda .nameAndOccupation{
+    margin-left: 14.17vw;
+    display:flex;
+    flex-direction: column;
+    color:#e5e5e5
+}
+#ananda .name{
+    font-size:30px;
+    font-weight: 100;
+}
+#ananda .occupation{
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+@media (max-width: 700px){
+    #ananda .name{
+        font-size: 4.2vw;
+        font-weight: 100;
+    }
+    #ananda .occupation{
+        margin-top: -1.67vw;
+        font-size: 2.65vw;
+        font-weight: 100;
+    }
+}
+#ananda .sidebar{
+    height: calc(100vh - 22vw);
+    width:34vw;
+    background-color: #778da9;
+    color: #e0e1dd;
+    position: absolute;
+    z-index: 2;
+}
+#ananda .triangle {
+    width: 0;
+    height: 0;
+    border-left: 17vw solid transparent;
+    border-right: 17vw solid transparent;
+    border-top: 6.25vw solid #415a77;
+}
+#ananda .sectionSidebar{
+    margin-left: 4.17vw;
+    margin-right: 1vw;
+    
+}
+#ananda .sectionTitle{
+    text-decoration: underline;
+    font-weight:400;
+    margin-bottom: -1.5vw;
+    font-size: 2.65vw;
+}
+#ananda .point{
+    font-weight: 200;
+    font-size: 2vw;
+}
+#ananda .info{
+    margin-left:2.1vw;
+    margin-top: -2vw;
+    color: #ccc5b9;
+    font-size:1.9vw;
+    font-weight:100
+}
+#ananda .sectionSidebar a{color: #e0e1dd;}
+#ananda .mainpage{
+    text-align: justify;
+    color: #0d1b2a;
+    padding-left: 40vw;
+    padding-right: 6vw;
+    height: calc(100vh - 22vw);
+    width: 54vw;
+    position: absolute;
+    background-image: url("../assets/bgNanda.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: slide 1000s infinite linear;
+    z-index: 1;
+    font-size: 2vw;
+}
+#ananda .noMarginTopBottom{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ananda .maintitle{
+    margin: 0;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+#ananda .subtitle{
+    font-weight: 100;
+    font-size: 3vw;
+}
+#ananda .mainpage li{
+    font-size: 2vw;
+}
+#ananda .mainpage a{color: #0d1b2a;}
+
+@media(min-width: 680px){
+    #ananda .header{height: 120px;}
+    #ananda .profile{
+        margin-top: 29.19px;
+        margin-left: 66.5px;
+        height: 105px;
+        width:105px;
+    }
+    #ananda .nameAndOccupation{margin-left: 99.19px;}
+    #ananda .triangle {
+        border-left: 119px solid transparent;
+        border-right: 119px solid transparent;
+        border-top: 43.75px solid #415a77;
+    }
+    #ananda .sidebar{
+        height: calc(100vh - 120px);
+        width:238px;
+    }
+    #ananda .sectionSidebar{
+        margin-left: 29.19px;
+        margin-right: 7px;
+    }
+    #ananda .sectionTitle{
+        margin-bottom: -10.5px;
+        font-size: 18px;
+    }
+    #ananda .point{font-size: 13.5px;}
+    #ananda .info{
+        margin-left:14.7px;
+        margin-top: -14px;
+        color: #ccc5b9;
+        font-size:12.8px;
+        font-weight:100
+    }
+    #ananda .mainpage{
+        height: calc(100vh - 120px);
+        padding-left: calc(6vw + 238px);
+        width: calc(88vw - 238px);
+        font-size: 15.8px;
+    }
+    #ananda .mainpage p{font-size: 13.5px;}
+    #ananda .mainpage li{font-size: 13.5px;}
+    #ananda .subtitle{font-size: 20.3px;}  
+}
+
+
+.spin{
+    animation-name: spin;
+    animation-duration: 1s;
+}
+@keyframes slide {
+    0% {background-position: 0px;}
+    100% {background-position: 1000vw;}
+}
+@keyframes spin {
+    0% {transform:rotate(0deg)}
+    100% {transform:rotate(360deg)}
+}

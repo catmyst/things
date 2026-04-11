@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CV Kelompok</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/cssNanda.css">
+    <link rel="stylesheet" href="./styles/cssIlham.css">
+    <link rel="stylesheet" href="./styles/cssNabila.css">
+    <link rel="stylesheet" href="./styles/cssSyauqi.css">
+</head>
+
+<body>
+<button id="prev" onclick="change(-1)">Previous CV</button>
+<button id="next" onclick="change(1)">Next CV</button>
+<div id="transition"></div>
+<div id="ananda" class="display">
+    <div class="header">
+        <img id="anandaProfile" class="profile" src="./assets/cyrene.jpg" onclick="spin()">
+        <div class="nameAndOccupation">
+            <h1 class="name">Ananda Rayhan Abhista</h1>
+            <h2 class="occupation">College Student</h2>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="triangle"></div>
+        <section class="sectionSidebar"> 
+            <h3 class="sectionTitle">Education</h3>
+            <p class="point">•> Associate Degree in Computer Engineering</p>
+            <p class="info">
+                Gunadarma University<br>
+                2024 - Present Day
+            </p>
+            <p class="point">•> Mathematics and Natural Science</p>
+            <p class="info">
+                SMAN 13 Depok<br>
+                2021 - 2024
+            </p>
+            <p class="point">•> Junior High School</p> 
+            <p class="info">
+                SMPN 7 Depok<br>
+                2018 - 2021
+            </p>
+            <p class="point">•> Elementary School</p> 
+            <p class="info">
+                SDN Curug 5<br>
+                2012 - 2018
+            </p>
+        </section>
+        <section class="sectionSidebar">
+            <h3 class="sectionTitle">Hard Skills</h3>
+            <p class="point">
+                •> Fluent in English, and Indonesian Language<br>
+                •> HTML/CSS Knowledge<br>
+                •> Proficient in JavaScript<br>
+                •> Static Web Design<br>
+                •> Responsive Web Design
+            </p>
+        </section>
+        <section class="sectionSidebar">
+            <h3 class="sectionTitle">Soft Skills</h3>
+            <p class="point">
+                •> Easily Adaptable<br>
+                •> Consistent 100 WPM Typing<br>
+                •> Time Management<br>
+                •> Identifying and Resolving Issues<br>
+                •> Maintaining Good Relation<br>
+                •> Extreme Dedication
+            </p>
+        </section>
+        <section class="sectionSidebar">
+            <h3 class="sectionTitle">Contact Info</h3>
+            <p class="point">
+                •> Email: catmystt@gmail.com<br>
+                •> Instagram: <a href="https://instagram.com/catmyst_">@Catmyst_</a><br>
+                •> Github: <a href="https://github.com/Catmyst">Catmyst</a>
+            </p>      
+        </section>
+    </div>
+
+    <div class="mainpage">
+        <section>
+            <h3 class="maintitle">About Me</h3>
+            <p class="noMarginTopBottom">
+                Born to be a programmer, forced to be a comptuer engineer (all good though either is fun)<br>
+                Most job interviews usually ask for 3 words to describe oneself. If I had to pick them, I'd say dedication, introvert, friendly (very creative i know)<br>
+                Hobbies? gaming, jogging, doing puzzles (technically gaming), listening to music (67 genre andy over here), posting random things on IG weekly, making games, etc. (ask me in person and I might remember what else I do to have fun with)<br>
+                What do people even usually put here? I'm running out of things to say, I guess go check out my web games over at my <a href="https://github.com/Catmyst/games">Github</a> 
+            </p>
+                
+        </section>
+        <section>
+            <h3 class="maintitle">Accomplishments</h3>
+            <br>
+            <h3 class="subtitle noMarginTopBottom">•> Academic</h3>
+            <ol class="noMarginTopBottom">
+                <li>
+                    Having a 4.0 GPA (up until semester 3)<br>
+                    -2026
+                </li>
+                <li>
+                    Getting a Score of 593/677 in TOEFL<br>
+                    -2024
+                </li>
+                <li>
+                    Second-place in Senior HS Quiz Competition<br>
+                    -2023
+                </li>
+                <li>
+                    First-place in Senior HS Quiz Competition<br>
+                    -2022
+                </li>
+                <li>
+                    Participation in National Science Competition<br>
+                    -Various Times
+                </li>
+                <li>
+                    Rank #1 Overall in Elementary School<br>
+                    -2018
+                </li>
+            </ol>
+            <br>
+            <h3 class="subtitle noMarginTopBottom">•> Non-Academic</h3>
+                <ol class="noMarginTopBottom">
+                    <li>
+                        Made various web games on my Github<br>
+                        -2026
+                    </li>
+                    <li>
+                        Participation in GEMASTIK<br>
+                        -2025
+                    </li>
+                    <li>
+                        Rank #6 in a campus Competitive Programming competition<br>
+                        -2025
+                    </li>
+                    <li>
+                        This "About Me" Page<br>
+                        -2024
+                    </li>
+                    <li>
+                        HTML Project "<a href="https://hokagestore.github.io/hokagestore">Hokagestore</a>"<br>
+                        -2024
+                    </li>
+                </ol>
+        </section>
+    </div>
+</div>
+    
+<div id="ilham">
+    <button class="dark-toggle" onclick="toggleDark()">Dark Mode</button>
+
+    <div class="container">
+    <div class="grid">
+
+    <aside class="sidebar">
+
+    <div class="profile">
+    <img src="./assets/pasfoto.jpg" alt="profile">
+    <h1>Ilham Jaya Kusuma</h1>
+    <div class="subtitle">Teknik Komputer</div>
+    </div>
+
+    <h2>Kontak</h2>
+    <div class="contact">
+    <p>📞 +62 851-5667-7882</p>
+    <p>📧 iamjakus21@gmail.com</p>
+    <p>📍 Jln. Abdul Wahab No.2D <br> RT/RW 02/08 Kel. Kedaung, <br> Kec. Sawangan, Depok</p>
+    </div>
+
+    <h2>Skill</h2>
+
+    <div class="skill-bar">
+    <div class="skill-name">Programming</div>
+    <div class="bar"><div class="fill" style="width:70%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+    <div class="skill-name">Networking</div>
+    <div class="bar"><div class="fill" style="width:65%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+    <div class="skill-name">Desain</div>
+    <div class="bar"><div class="fill" style="width:60%"></div></div>
+    </div>
+
+    <h2>Bahasa</h2>
+    <div class="item">Indonesia (Native)</div>
+    <div class="item">Inggris (Intermediate)</div>
+
+    <h2>Sertifikat</h2>
+    <div class="item">MTCNA - Mikrotik (2024)</div>
+
+    </aside>
+
+    <main class="main">
+
+    <h2>Profil</h2>
+    <p>
+    Saya seorang Mahasiswa jurusan Teknik Komputer yang memiliki minat dalam
+    pemrograman dan jaringan. Memiliki kemampuan dasar dalam C++ dan desain sederhana.
+    </p>
+
+
+
+    <h2>Pendidikan</h2>
+    <div class="job">
+    <div class="title">SMK Al-Hasra</div>
+    <div class="subtitle">Teknik Komputer (2021 - 2024)</div>
+    </div>
+
+    <div class="job">
+    <div class="title">SMP Al-Hasra</div>
+    <div class="subtitle">2018 - 2021</div>
+    </div>
+
+    <h2>Pengalaman</h2>
+
+    <div class="job">
+    <div class="title">PKL di UIN Syarif Hidayatullah Jakarta</div>
+    <div class="subtitle">2023</div>
+    <p>Mendesain thumbnail YouTube, spanduk, dan menjadi kameramen acara kampus.</p>
+    </div>
+
+    <div class="job">
+    <div class="title">Proyek Praktikum</div>
+    <div class="subtitle">2025 - 2026</div>
+    <p>Membuat alarm cahaya, up down counter, dan alarm pintu inframerah.</p>
+    </div>
+
+</div>
+</div>
+</div>
+
+<div id="nabila">
+    <div class="container">
+        <h1 class="noMargin">Nabila Fitriana</h1>
+        <p><b>Computer Engineering</b></p>
+    
+        <div class="section">
+            <h2>Kontak</h2>
+            <p>📞 0896-74288-8551</p>
+            <p>📧 fitrianannabila69@gmail.com</p>
+            <p>📍 Kp. Sidamukti RT03/RW022, Kec. Sukamaju, Kel. Cilodong, Depok, Jawa Barat</p>
+        </div>
+    
+        <div class="section">
+            <h2 class="noMargin">Profil</h2>
+            <p class="noMargin"> 
+                Lulusan Diploma Teknik Komputer yang memiliki minat besar dalam bidang teknologi informasi,
+                khususnya jaringan komputer, hardware, dan pemrograman dasar. Memiliki pengalaman dalam
+                instalasi jaringan LAN, perakitan, serta perawatan komputer.
+            </p>
+        </div>
+    
+        <div class="section">
+            <h2 class="noMargin">Skill</h2>
+            <ul class="noMargin">
+                <li>Mampu berkomunikasi dengan baik</li>
+                <li>Cepat beradaptasi</li>
+                <li>Bekerja individu maupun tim</li>
+                <li>Bertanggung jawab</li>
+                <li>Editing coding sederhana</li>
+                <li>Mengoperasikan komputer/laptop</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2 class="noMargin">Pengalaman</h2>
+            <ul class="noMargin">
+                <li>Merakit komputer dari awal</li>
+                <li>Instal ulang laptop/komputer</li>
+                <li>Memperbaiki masalah komputer (lemot, virus, error)</li>
+                <li>Membantu instalasi jaringan komputer</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2 class="noMargin">Pendidikan</h2>
+            <ul class="noMargin">
+                <li>2013 - 2017 : SD Negeri 8</li>
+                <li>2018 - 2021 : SMPN 4 Depok</li>
+                <li>2021 - 2024 : SMA Asujaiyah</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Sertifikasi</h2>
+            <p>Pelatihan LSP</p>
+        </div>
+    
+    </div>
+</div>
+<div id="syauqi">
+    <!-- Header -->
+    <div class="header">
+        <h1>Syauqi Atharizq</h1>
+        <p>Jakarta, 15 Juni 2005</p>
+        
+        <div class="contact">
+            <p><strong>HP:</strong> 085716400157</p>
+            <p><strong>Email:</strong> atharizqsyauqi@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <h2>Pengalaman / Proyek</h2>
+        
+        <div class="project">
+            <h3>Timbangan Digital berbasis Arduino</h3>
+            <ul>
+                <li>Menggunakan sensor load cell dan modul HX711</li>
+                <li>Menampilkan berat pada LCD</li>
+                <li>Simulasi dan pengujian rangkaian menggunakan Tinkercad</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Sensor Banjir (Flood Sensor)</h3>
+            <ul>
+                <li>Membuat sistem pendeteksi air menggunakan sensor</li>
+                <li>Menggunakan mikrokontroler untuk memproses input sensor</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <h2>Keahlian Teknis</h2>
+        
+        <h3>Programming & Software</h3>
+        <ul class="skill-list">
+            <li>Arduino IDE</li>
+            <li>Visual Studio Code</li>
+            <li>Processing IDE (dasar)</li>
+        </ul>
+
+        <h3>Hardware & Electronics</h3>
+        <ul class="skill-list">
+            <li>Arduino Programming</li>
+            <li>Interfacing LCD (I2C)</li>
+            <li>Sensor Interface (HX711 Load Cell)</li>
+            <li>Perancangan rangkaian mikrokontroler</li>
+        </ul>
+
+        <h3>Tools</h3>
+        <p>Proteus • Tinkercad • Microsoft Office</p>
+    </div>
+
+    <!-- Kelebihan -->
+    <div class="section">
+        <h2>Kelebihan</h2>
+        <ul>
+            <li>Mampu belajar teknologi baru dengan cepat</li>
+            <li>Teliti dalam membuat rangkaian dan program</li>
+            <li>Mampu bekerja secara mandiri maupun tim</li>
+        </ul>
+    </div>
+
+    <!-- Pendidikan -->
+    <div class="section">
+        <h2>Pendidikan</h2>
+        <p><strong>Universitas Gunadarma</strong></p>
+        <p>D3 Teknik Komputer | 2023 – Sekarang</p>
+    </div>
+</div>
+
+
+<script src="./script/script.js"></script>
+<script src="./script/jsNanda.js"></script>
+</body>
